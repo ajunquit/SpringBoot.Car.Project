@@ -29,7 +29,7 @@ public class CarApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		Owner owner1 = new Owner("John" , "Johnson");
+		/*Owner owner1 = new Owner("John" , "Johnson");
 		Owner owner2 = new Owner("Mary" , "Robinson");
 		ownerRepositoryrepository.saveAll(Arrays.asList(owner1, owner2));
 
@@ -40,7 +40,7 @@ public class CarApplication implements CommandLineRunner {
 				Car car3 = new Car("Toyota", "Prius", "Silver",
 						"KKO-0212", 2020, 39000, owner2);
 				repository.saveAll(Arrays.asList(car1, car2,
-						car3));
+						car3));*/
 
 		/*repository.save(new Car("Mustang","VAN", "Red", "ADF-1121", 2021, 59000));
 
