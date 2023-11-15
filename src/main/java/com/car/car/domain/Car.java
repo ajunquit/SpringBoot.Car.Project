@@ -1,6 +1,6 @@
 package com.car.car.domain;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 @Entity
 public class Car {
