@@ -1,7 +1,7 @@
-package com.car.car.web;
+package com.car.car.controllers;
 
-import com.car.car.domain.Car;
-import com.car.car.domain.CarRepository;
+import com.car.car.entities.Car;
+import com.car.car.repositories.CarRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

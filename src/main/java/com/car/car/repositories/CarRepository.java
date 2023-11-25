@@ -1,5 +1,6 @@
-package com.car.car.domain;
+package com.car.car.repositories;
 
+import com.car.car.entities.Car;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
